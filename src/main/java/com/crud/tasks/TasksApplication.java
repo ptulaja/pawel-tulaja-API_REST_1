@@ -18,7 +18,7 @@ public class TasksApplication /*extends SpringBootServletInitializer*/ {
 
 	public static void main(String[] args) throws UnknownHostException {
 
-		SpringApplication app = new SpringApplication(TasksApplication.class);
+		/*SpringApplication app = new SpringApplication(TasksApplication.class);
 		Environment env = app.run(args).getEnvironment();
 		log.info("\n----------------------------------------------------------\n\t" +
 						"Application '{}' is running! Access URLs:\n\t" +
@@ -28,7 +28,9 @@ public class TasksApplication /*extends SpringBootServletInitializer*/ {
 				env.getProperty("server.port"),
 				InetAddress.getLocalHost().getHostAddress(),
 				env.getProperty("server.port"));
+				*/
 	}
+
 	/*
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {

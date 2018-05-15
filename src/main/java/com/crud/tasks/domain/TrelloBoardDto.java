@@ -8,11 +8,11 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
-@AllArgsConstructor
-@Getter
-@NoArgsConstructor
 
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class TrelloBoardDto {
 
     @JsonProperty("id")

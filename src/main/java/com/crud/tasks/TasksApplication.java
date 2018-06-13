@@ -12,7 +12,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 @SpringBootApplication
-public class TasksApplication /*extends SpringBootServletInitializer*/ {
+public class TasksApplication extends SpringBootServletInitializer {
 
 	private static final Logger log = LoggerFactory.getLogger(TasksApplication.class);
 
@@ -31,10 +31,9 @@ public class TasksApplication /*extends SpringBootServletInitializer*/ {
 
 	}
 
-	/*
+
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(TasksApplication.class);
 	}
-*/
 }
